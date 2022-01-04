@@ -1,0 +1,37 @@
+{
+    "name": "explore-pu/lumen-vue",
+    "description": "Minimal Lumen with vue and tailwindcss",
+    "keywords": ["lumen", "vue", "tailwindcss"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/pu-explore/lumen-vue/issues",
+        "source": "https://github.com/pu-explore/lumen-vue"
+    },
+    "authors": [
+        {
+            "name": "xiaozhi",
+            "email": "xiaozhi2015@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/lumen-framework": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lumen\\Vue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lumen\\Vue\\LumenVueServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

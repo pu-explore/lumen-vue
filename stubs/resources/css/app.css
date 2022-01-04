@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h1 {
+    @apply font-bold text-3xl py-3
+}
+
+h3 {
+    @apply font-normal text-xl p-2
+}
+
+.hello ul {
+    @apply space-x-4
+}
+
+.hello ul li {
+    @apply inline-block
+}
+
+.hello a,
+a.router-link-exact-active {
+    @apply text-green-600;
+}

@@ -1,26 +1,14 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 module.exports = {
     purge: [
-        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
-        './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
         './resources/js/**/*.vue',
     ],
-
+    darkMode: 'class', // false or 'media' or 'class'
     theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-            },
-        },
+        extend: {},
     },
-
     variants: {
-        extend: {
-            opacity: ['disabled'],
-        },
+        extend: {},
     },
-
-    plugins: [require('@tailwindcss/forms')],
-};
+    plugins: [],
+}

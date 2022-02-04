@@ -1,12 +1,5 @@
 <template>
-    <div class="about">
-        <h1>This is an about page</h1>
-    </div>
+  <div class="about text-center">
+    <h1 class="text-2xl my-4">This is an about page</h1>
+  </div>
 </template>
-
-<script>
-
-export default {
-    name: 'Home',
-}
-</script>

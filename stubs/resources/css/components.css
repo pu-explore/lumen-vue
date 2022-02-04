@@ -1,0 +1,4 @@
+.hello a,
+a.router-link-exact-active {
+    @apply text-green-600;
+}

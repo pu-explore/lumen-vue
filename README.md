@@ -11,17 +11,41 @@ composer require explore-pu/lumen-vue --dev
 $app->register(\Lumen\Vue\LumenVueServiceProvider::class);
 ```
 
-## Install And Compile Resources
+## Install
 
 ```shell
 php artisan vue:install
+```
 
-npm install && npm run dev
+## Install development dependencies
+
+```shell
+npm install
+```
+
+### Compiles and hot-reloads for development
+
+```shell
+npm run serve
+```
+
+### Compiles and minifies for watch
+
+```shell
+npm run watch
+```
+
+### Compiles and minifies for production
+
+```shell
+npm run build
 ```
 
 ## Verify
 
-http://localhost
+http://localhost:8080
+
+http://your_domain_address
 
 ## License
 

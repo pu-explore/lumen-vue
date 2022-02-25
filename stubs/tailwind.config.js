@@ -1,3 +1,6 @@
+const colors = require('tailwindcss/colors');
+colors.transparent = 'transparent';
+
 module.exports = {
     purge: [
         './resources/views/**/*.blade.php',
@@ -5,6 +8,7 @@ module.exports = {
     ],
     darkMode: 'class', // false or 'media' or 'class'
     theme: {
+        colors: colors,
         extend: {},
     },
     variants: {

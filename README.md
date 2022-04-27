@@ -1,7 +1,7 @@
 ## Installation Package
 
 ```shell
-composer require explore-pu/lumen-vue --dev
+composer require pu-explore/lumen-vue --dev
 ```
 
 ## In `bootstrap/app.php` Add Service

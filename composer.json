@@ -1,5 +1,5 @@
 {
-    "name": "explore-pu/lumen-vue",
+    "name": "pu-explore/lumen-vue",
     "description": "Minimal Lumen with vue and tailwindcss",
     "keywords": ["lumen", "vue", "tailwindcss"],
     "license": "MIT",
